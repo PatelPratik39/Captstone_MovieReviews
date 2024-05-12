@@ -1,6 +1,7 @@
 {
-  "name": "server",
+  "name": "capstoneprojectbackend",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -8,7 +9,7 @@
     "seed": "node ./db/seed.js"
   },
   "keywords": [],
-  "author": "Pratik Patel",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -17,13 +18,11 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "faker": "^6.6.6",
+    "faker": "^5.5.3",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.3.4",
+    "mongoose": "^8.3.1",
     "morgan": "^1.10.0",
     "pg": "^8.11.5",
-    "seed": "^0.4.4"
-  },
-  "devDependencies": {},
-  "description": ""
+    "util": "^0.12.5"
+  }
 }
